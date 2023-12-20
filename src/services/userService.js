@@ -1,4 +1,4 @@
-import userModel from '../models/userModel.js';
+import userModel from '../dao/models/userModel.js';
 
 export default class UserService {
     

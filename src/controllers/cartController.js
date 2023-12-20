@@ -21,7 +21,7 @@ export default class cartController {
         const {nameProduct, description, creator_user} = cart;
 
         if (!nameProduct || !description || !creator_user) {
-            throw new Error('Error al crear el juguete');
+            throw new Error('Error al crear el carrito');
         }
 
         const data = await this.cartService.create({nameProduct, description, creator_user});
