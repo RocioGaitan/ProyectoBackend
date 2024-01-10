@@ -1,4 +1,4 @@
-import passport from 'passport';
+/*import passport from 'passport';
 import jwt, { ExtractJwt } from 'passport-jwt';
 
 import { SECRET_JWT, KEY_COOKIE } from '../utils/constantsUtil.js';
@@ -34,4 +34,4 @@ const cookieExtractor = (req) => {
     return token;
 }
 
-export default initializatePassport;
+export default initializatePassport;*/

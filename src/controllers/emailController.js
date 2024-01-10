@@ -6,7 +6,7 @@ const {error} = winston;
 
 //renderiza pagina de correo electronico
 async function getEmail(req, res) {
-  res.render("email");
+  res.render('email');
 }
 
 const isValidEmail = (email) => {
